@@ -1,0 +1,61 @@
+#header {
+	font-family: Arial;
+	padding-left: 40px;
+	margin: 15px auto;
+	padding: 5px 20px;
+	max-width: 800px;
+}
+
+#name {
+	font-size:16pt;
+}
+
+body div{
+	background-color: #efefef;
+	padding-left: 10px;
+	margin: 20px auto;
+	padding: 5px 20px;
+	max-width: 800px;
+}
+
+.dates{
+	float: right;
+}
+
+
+h2{
+	color:#027984;
+	font-family: Arial;
+}
+
+#Objective{
+	border-left: 10px solid #005159;
+}
+
+#Experience{
+	border-left: 10px solid #027984;
+}
+
+#Education{
+	border-left: 10px solid #77c9d1;
+}
+
+#Skills{
+	border-left: 10px solid #a4ebf2;
+}
+
+.section{
+	cursor: pointer;
+}
+.section .content{
+	max-height:5000px;
+	-moz-transition: max-height .8s;
+    -ms-transition: max-height .8s;
+    -o-transition: max-height .8s;
+    -webkit-transition: max-height .8s;
+    transition: max-height .8s;
+    overflow: hidden;
+}
+.section.collapse .content{
+	max-height:0px;
+}

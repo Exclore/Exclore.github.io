@@ -1,0 +1,97 @@
+var json = `
+{
+   "sections":[
+		{
+			"name": "Contact",
+			"info":{
+				"name": "Shawn Gallagher",
+				"phone": "801-888-2249",
+				"email": "Gshawn017@gmail.com"
+			}
+		},
+		{
+			"name": "Objective",
+			"description": "To have a career in the field of software engineering by learning new and exciting skills."
+		},
+		{
+			"name": "Experience",
+			"employers":[
+				{
+					"employerName": "SirsiDynix",
+					"title": "Software Support Analyst",
+					"date": "Aug 2016-Aug 2017",
+					"responsibilities":[
+						"Provided tier 3 support for a large and complex software environment.",
+						"Troubleshot HTML/CSS/JavaScript problems in web applications.",
+						"Performed server maintenance and scripted scheduled tasks.",
+						"Documented and reported bugs and possible solutions to development for resolution.",
+						"Wrote technical articles for instructional and bug related issues.",
+						"Worked on many projects and cases simultaneously."
+					]
+				},
+				{
+					"employerName":"WhiteCanyon Software",
+					"title": "Enterprise Support Representative",
+					"date": "Sept 2014-Aug 2016",
+					"responsibilities":[
+						"Handled high level technical support for data erasure software.",
+						"Worked with a wide variety of technical and non-technical customers.",
+						"Implemented standalone, PXE, Windows Deployment Server, and remote software deployment.",
+						"Customized settings for customer using basic scripting.",
+						"Designed custom backgrounds and logos for customers.",
+						"Tested various hardware configurations to reproduce reported issues."
+					]
+				},
+				{
+					"employerName": "Teleperformance USA",
+					"title": "Technical Support Agent - Verizon project",
+					"date": "2013",
+					"responsibilities":[
+						"Took phone calls from customers concerning Internet/TV/Phone services.",
+						"Managed ticketing system to track and resolve custom issues."
+					]
+				}
+			]
+	   },
+	   {
+			"name":"Education",
+			"schools":[
+				{
+					"name": "Utah Valley University",
+					"degrees":[
+						{
+							"name":"Bachelor of Software Engineering",
+							"date": "2015-Aug 2019"
+						},
+						{
+							"name": "Associate of Science",
+							"date": "2011"
+						}
+					]
+				}
+			]
+	   },
+	   {
+			"name":"Skills",
+			"skills":[
+				{
+					"name": "Technical",
+					"list":[
+						"Excellent troubleshooting and problem-solving abilities.",
+						"Experience with Windows XP, Vista, 7, 8, 10.",
+						"Able to quickly pick up, learn, and implement new software.",
+						"Basic knowledge of Linux bash.",
+						"C#, C++, HTML, CSS, and JavaScript."
+					]
+				},
+				{
+					"name": "Interpersonal",
+					"list":[
+						"Excellent communication skills.",
+						"Able to work on a team."
+					]
+				}
+			]
+	   }
+	]
+}`;
