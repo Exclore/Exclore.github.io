@@ -17,6 +17,7 @@
 			"employers":[
 				{
 					"employerName": "SirsiDynix",
+					"employerTooltip":"Library Management System Software",
 					"title": "Software Support Analyst",
 					"date": "Aug 2016-Aug 2017",
 					"responsibilities":[
@@ -30,7 +31,7 @@
 				},
 				{
 					"employerName":"WhiteCanyon Software",
-					"employerTooltip":"I HATE THEM",
+					"employerTooltip":"Data Erasure Software",
 					"title": "Enterprise Support Representative",
 					"date": "Sept 2014-Aug 2016",
 					"responsibilities":[
