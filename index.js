@@ -84,7 +84,8 @@ function renderDate(date)
 
 function renderEmployer(employer)
 {
-	var code = '<h3>' + employer.employerName + renderDate(employer.date) + '</h3>';
+	console.log(employer);
+	var code = '<h3'+(employer.employerTooltip !== undefined ? ' title="'+employer.employerTooltip+'"' : '')+ '>' + employer.employerName + renderDate(employer.date) + '</h3>';
 	code += '<p>' + employer.title + '</p>';
 	code += renderList(employer.responsibilities);
 	return code;
