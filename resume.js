@@ -91,57 +91,55 @@ function renderEmployer(employer)
 }
 
 
-function displayFromJson()
+function displayFromJson(json)
 {
-	fetch( 'resume.json', {
-		method: 'get'
-	}).then( function( response ) {//*/
-		var code = "";
-		var sections = JSON.parse(response.messageBody).sections;
-		//var sections = JSON.parse(window.json).sections;
-		for(i in sections)
-		{
-				var section = sections[i];
-				switch(section.name){
-					case "Contact":
-						code += renderContact(section);
-						break;
-					case "Objective":
-						code += renderObjective(section);
-						break;
-					case "Experience":
-						code += renderExperience(section);
-						break;
-					case "Education":
-						code += renderEducation(section);
-						break;
-					case "Skills":
-						code += renderSkills(section);
-						break;
-				}
-		}
-		document.body.innerHTML = code;
-		
-	}).catch( function( err ) {
-		alert(err.message);
-
-	});//*/
-	
+	var sections = json.sections;
+	var body = $("body");
+	for(i in sections)
+	{
+			var section = sections[i];
+			switch(section.name){
+				case "Contact":
+					body.append(renderContact(section));
+					break;
+				case "Objective":
+					body.append(renderObjective(section));
+					break;
+				case "Experience":
+					body.append(renderExperience(section));
+					break;
+				case "Education":
+					body.append(renderEducation(section));
+					break;
+				case "Skills":
+					body.append(renderSkills(section));
+					break;
+			}
+	}
 }
 
 
 
 
 function collapse(){
-	this.classList.toggle("collapse");
+	$(this).toggleClass("collapse");
 }
 
-document.addEventListener('DOMContentLoaded', function(){
-	
-	displayFromJson();
-	
-	var sections = document.getElementsByClassName("section");
-	Array.from(sections).forEach(function(element){
-		element.addEventListener("click", collapse, false);
+
+function setClickEvents()
+{
+	$(".section").click(collapse);
+}
+
+$(document).ready(function(){
+	$.getJSON({
+		url:'https://exclore.github.io/resume.json',
+		success: function(json){
+			displayFromJson(json);
+			setClickEvents();
+		},
+		fail: function(){
+			alert("something went wrong");
+		}
 	});
-}, false);
+});
