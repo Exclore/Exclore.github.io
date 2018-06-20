@@ -96,29 +96,30 @@
 					}
 					html += '</div>';
 					$("body").prepend(html);
+				
+					list = Object.keys(libraryScores);
+					$('input[name=input1]').attr("value", list[0] !== undefined ? list[0] : "");
+					$('input[name=input2]').attr("value", list[1] !== undefined ? list[1] : "");
+					$('input[name=input3]').attr("value", list[2] !== undefined ? list[2] : "");
+					$('input[name=input4]').attr("value", list[3] !== undefined ? list[3] : "");
+					$('input[name=input5]').attr("value", list[4] !== undefined ? list[4] : "");
+					
+					if($('input[name=input3]').attr("value") != "")
+					{
+						$('input[name=input3]').parent().removeClass("is-hidden");
+					}
+					
+					if($('input[name=input4]').attr("value") != "")
+					{
+						$('input[name=input4]').parent().removeClass("is-hidden");
+					}
+					
+					if($('input[name=input5]').attr("value") != "")
+					{
+						$('input[name=input5]').parent().removeClass("is-hidden");
+					}
+				
 				});
-				list = Object.keys(libraryScores);
-				$('input[name=input1]').attr("value", list[0] !== undefined ? list[0] : "");
-				$('input[name=input2]').attr("value", list[1] !== undefined ? list[1] : "");
-				$('input[name=input3]').attr("value", list[2] !== undefined ? list[2] : "");
-				$('input[name=input4]').attr("value", list[3] !== undefined ? list[3] : "");
-				$('input[name=input5]').attr("value", list[4] !== undefined ? list[4] : "");
-				
-				if($('input[name=input3]').attr("value") != "")
-				{
-					$('input[name=input3]').parent().removeClass("is-hidden");
-				}
-				
-				if($('input[name=input4]').attr("value") != "")
-				{
-					$('input[name=input4]').parent().removeClass("is-hidden");
-				}
-				
-				if($('input[name=input5]').attr("value") != "")
-				{
-					$('input[name=input5]').parent().removeClass("is-hidden");
-				}
-				
 				
 			}
 			
