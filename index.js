@@ -4,7 +4,7 @@ function renderContact(section)
 }
 function renderObjective(section)
 {
-	return renderSection(section, '<p>'+section.description+'</p>');
+	//return renderSection(section, '<p>'+section.description+'</p>');
 }
 function renderExperience(section)
 {
