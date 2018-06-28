@@ -63,7 +63,7 @@ function renderSkill(skill)
 }
 function renderSection(section, inner)
 {
-	return '<div class="section collapse" id="'+section.name+'">'+
+	return '<div class="section" id="'+section.name+'">'+
 			'<h2 class="title">'+section.name+'</h2>'+
 			'<div class="content">'+inner+'</div></div>';
 }
@@ -129,7 +129,7 @@ function collapse(){
 
 function setClickEvents()
 {
-	$(".section").click(collapse);
+	//$(".section").click(collapse);
 }
 
 $(document).ready(function(){

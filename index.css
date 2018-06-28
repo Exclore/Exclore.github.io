@@ -52,9 +52,6 @@ h2{
 	border-left: 10px solid #a4ebf2;
 }
 
-.section{
-	cursor: pointer;
-}
 .section .content{
 	max-height:5000px;
 	-moz-transition: max-height .8s;
