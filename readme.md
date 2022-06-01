@@ -1,36 +1,34 @@
 ### Shawn Gallagher
-#### Phone: (801) 888 2249 | Email: Gshawn017@gmail.com
+#### Email: Gshawn017@gmail.com
+
+##Skills
+Full stack engineer with experience in Typescript, Angular 2+, React, UIX, Software Testing, Selenium,
+Cypress, NodeJS, C#, MySQL, Microsoft Azure. Able to quickly pick up new technologies and processes.
+
 ## EXPERIENCE
-### **SirsiDynix Aug 2016-Aug 2017**
-Software Support Analyst
-+ Provided tier 3 support for a large and complex software environment.
-+ Troubleshot HTML/CSS/Javascript problems in web applications.
-+ Performed server maintenance and scripted scheduled tasks.
-+ Documented and reported bugs and possible solutions to development for resolution.
-+ Wrote technical articles for instructional and bug related issues.
-+ Worked on many projects and cases simultaneously.
-### **WhiteCanyon Software Sept 2014-Aug 2016**
-Enterprise Support Representative
-+ Handled high level technical support for data erasure software.
-+ Worked with a wide variety of technical and non-technical customers.
-+ Implemented standalone, PXE, Windows Deployment Server, and remote software deployment.
-+ Customized settings for customer using basic scripting.
-+ Designed custom backgrounds and logos for customers.
-+ Tested various hardware configurations to reproduce reported issues.
-### **Teleperformance USA 2013**
-Technical Support Agent - Verizon project
-+ Took phone calls from customers concerning Internet/TV/Phone services.
-+ Managed ticketing system to track and resolve custom issues.
+### **Lender Toolkit Nov 2021-Mar 2022**
+Software Engineer
++  Created addons to a mortgage issuing software suite by leveraging its
+SDK and API.
++ Helped develop a web application for managing mortgage applications.
++ Worked directly with clients to establish requirements and timelines.
+
+### **Trimble Inc. Apr 2021-Nov 2021**
+Software Test Engineer
++  Improved performance of automated testing suite from 6+ hour runtime
+to under 1 hour.
++ Moved the testing department from manual-deployment to a CI/CD pipeline.
++  Investigated various user reported bugs in GIS related software suites.
+
+### **Emmersion Learning Aug 2018 - July 2020**
+Junior Software Engineer
++ Worked on a cross functional team to improve and build new features
+for a globally used web application.
++ Used test driven development and pair/mob programming to create
+high quality and sustainable code.
++ Helped to develop QA and DevOps processes used throughout the
+company.
++ Managed a small team of QA Specialists.
 ## EDUCATION
 ### **Utah Valley University**
-Bachelors of Software Engineering **2015-present**
-Associates of Science **2011**
-## SKILLS
-### **Technical**
-+ Excellent troubleshooting and problem-solving abilities
-+ Experience with Windows XP, Vista, 7, 8, 10
-+ Able to quickly pick up, learn, and implement new software
-+ Basic knowledge of Linux bash
-+ C#, C++, HTML, CSS, and Javascript
-### **Interpersonal**
-+ Excellent communication skills both in person and though email/chat/phone
+Associates of Science 2011
